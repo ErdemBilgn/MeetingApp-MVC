@@ -6,6 +6,10 @@ namespace MeetingApp.Controllers
     {
         public IActionResult Index()
         {
+            int clock = DateTime.Now.Hour;
+
+            ViewBag.greet = clock > 12 ? "İyi Günler" : "Günaydın";
+            ViewBag.userName = "Erdem";
             return View();
         }
     }

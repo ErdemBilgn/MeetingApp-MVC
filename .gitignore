@@ -35,7 +35,7 @@ npm-debug.log
 yarn-error.log
 pnpm-lock.yaml
 package-lock.json
-wwroot/lib
+wwwroot/lib/bootstrap
 
 # Bower paketleri
 bower_components/
