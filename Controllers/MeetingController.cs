@@ -25,5 +25,11 @@ namespace MeetingApp.Controllers
             ViewBag.UserCount = Repository.Users.Where(info => info.WillAttend == true).Count();
             return View("Thanks", model);
         }
+
+        public IActionResult Details(int id)
+        {
+            UserInfo? user = Repository.GetById(id);
+            return View(user);
+        }
     }
 }
