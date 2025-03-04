@@ -8,6 +8,7 @@
 *.publishsettings
 Backup*/
 .env
+.vscode
 
 # Rider / Resharper ile ilgili dosyalar
 .idea/
